@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QWidget, QLabel, QVBoxLayout, QPushButton, QFileDialog, QLineEdit
 import os
 
-class PluginWidget(QWidget):
+class MergeTexts(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Metin Birleştirici")
